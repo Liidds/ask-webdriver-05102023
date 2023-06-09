@@ -21,7 +21,7 @@ Feature: Smoke steps
     Then I should see page title contains "Gibiru"
     Then element with xpath "//input[@id='q']" should be present
     Then I type "Bell pepper" into element with xpath "//input[@id='q']"
-    And I click on element with xpath "//button[@type='subit']"
+    And I click on element with xpath "//button[@type='submit']"
     Then I wait for element with xpath "//div[@id='web-results']" to be present
     Then element with xpath "//div[@id='web-results']" should contain text "Bell pepper"
     #And I wait for 10 sec
